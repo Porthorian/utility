@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Porthorian\Utility\Tests\Suite;
 
-use DateTime;
 use DateInterval;
 use PHPUnit\Framework\TestCase;
 use Porthorian\Utility\Time\TimeUtil;
