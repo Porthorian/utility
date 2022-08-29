@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace Porthorian\Utility\Tests;
 
-use Porthorian\Utility\Error\HandlerTrait;
+use Porthorian\Utility\Error\ErrorTrait;
 
 class TestError
 {
-	use HandlerTrait;
+	use ErrorTrait;
 
 	public function addTestError(string $message, int $code = 0) : void
 	{

@@ -6,7 +6,7 @@ namespace Porthorian\Utility\Error;
 
 use InvalidArgumentException;
 
-trait HandlerTrait
+trait ErrorTrait
 {
 	/**
 	 * Stores user viewable errors.
