@@ -19,4 +19,14 @@ class TestError
 	{
 		$this->addInternalError($message, $code);
 	}
+
+	public function testSetError(array $array)
+	{
+		$this->setError($array);
+	}
+
+	public function testSetErrorInternal(array $array)
+	{
+		$this->setInternalError($array);
+	}
 }

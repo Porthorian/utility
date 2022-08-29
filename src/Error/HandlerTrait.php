@@ -32,6 +32,22 @@ trait HandlerTrait
 		return $this->error_internal;
 	}
 
+	final public function clearErrors() : void
+	{
+		$this->error = [];
+	}
+
+	final public function clearInternalErrors() : void
+	{
+		$this->error_internal = [];
+	}
+
+	final public function clearAllErrors() : void
+	{
+		$this->clearErrors();
+		$this->clearInternalErrors();
+	}
+
 	////
 	// Public Routines
 	////
